@@ -186,3 +186,18 @@ TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone27/temp"
 TW_BACKUP_EXCLUSIONS := /data/fonts,/data/adb/ap,/data/adb/ksu
 TW_FRAMERATE := 60
 TW_AB_REC := true
+
+# SHRP
+SHRP_PATH := device/xiaomi/diting
+SHRP_DEVICE_CODE := diting
+SHRP_MAINTAINER := Jezzay97
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_AB := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
